@@ -47,6 +47,13 @@ function displayFreelancers(freelancers) {
 }
 
 function displayAveragePrice() {
-  const avgPrice = document.getElementById("average-price");
+  const avgPrice = document.getElementById("averagePrice");
   avgPrice.textContent = averagePrice.toFixed(2);
+}
+
+function main() {
+  const heading = document.querySelector("#heading");
+  const h1 = document.createElement("h1");
+  h1.innerText = "Freelancer Forum";
+  heading.appendChild(h1);
 }
